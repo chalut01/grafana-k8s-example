@@ -46,9 +46,9 @@ metadata:
   namespace: default
 spec:
   scaleTargetRef:
-    apiVersion: apps/v1
     kind: Deployment
     name: grafana
+    apiVersion: apps/v1
   minReplicas: 3
   maxReplicas: 5
   targetCPUUtilizationPercentage: 80
