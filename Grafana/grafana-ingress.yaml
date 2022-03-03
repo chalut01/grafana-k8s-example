@@ -23,7 +23,8 @@ spec:
         backend:
           service: 
             name: grafana
-            port: 3000
+            port: 
+              number: 3000
   tls:
   - hosts:
     - grafana.beebuddy.net
