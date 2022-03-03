@@ -23,5 +23,5 @@ spec:
               name: https
   tls:
   - hosts:
-    - argocd.beebuddy.net
+    - grafana.beebuddy.net
     secretName: grafana-secret
