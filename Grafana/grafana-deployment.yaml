@@ -46,7 +46,7 @@ metadata:
 spec:
   scaleTargetRef:
     kind: ReplicaSet
-    name: grafana
+    name: default
   minReplicas: 3
   maxReplicas: 5
   targetCPUUtilizationPercentage: 80
