@@ -46,7 +46,7 @@ metadata:
   namespace: default
 spec:
   scaleTargetRef:
-    kind: ReplicaSet
+    kind: Deployment
     name: grafana
   minReplicas: 3
   maxReplicas: 5
