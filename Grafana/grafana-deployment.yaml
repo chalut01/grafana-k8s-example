@@ -42,7 +42,7 @@ status:
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: grafana-scale
+  name: grafana
 spec:
   scaleTargetRef:
     kind: ReplicaSet
