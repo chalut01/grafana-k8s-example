@@ -43,10 +43,11 @@ apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: grafana
+  namespace: default
 spec:
   scaleTargetRef:
     kind: ReplicaSet
-    name: default
+    name: grafana
   minReplicas: 3
   maxReplicas: 5
   targetCPUUtilizationPercentage: 80
