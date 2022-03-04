@@ -20,9 +20,9 @@ spec:
         #resources: {}
         resources:
           requests:
-            cpu: 1m
+            cpu: "1m"
           limits:
-            cpu: 500m  
+            cpu: "500m"  
       imagePullSecrets:
       - name: dockerhub
       restartPolicy: Always
