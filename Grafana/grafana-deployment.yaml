@@ -17,7 +17,12 @@ spec:
       containers:
       - image: grafana/grafana
         name: grafana
-        resources: {}
+        #resources: {}
+        resources:
+          requests:
+            cpu: 1m
+          limits:
+            cpu: 500m  
       imagePullSecrets:
       - name: dockerhub
       restartPolicy: Always
